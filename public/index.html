@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Finance Logger</h1>
+        <ul class="items-list">
+
+        </ul>
+    </div>
+    <form class="new-item-form">
+        <div class="field">
+            <label>Type:</label>
+                <select id="type">
+                    <option value="invoice">Invoice</option>
+                    <option value="payment">payment</option>
+                </select>
+         </div>
+         <div class="filed">
+            <label>To / From:</label>
+            <input type="text" id="toform">
+         </div>
+         <div class="filed">
+            <label>Details</label>
+            <input type="text" id="details">
+         </div>
+         <div class="filed">
+            <label> Amount</label>
+            <input type="number" id="amount">
+         </div>
+         <button type="submit">Add</button>
+       </form>
+   <script  type="module" src="app.js"></script>
+</body>
+</html>
